@@ -1,7 +1,7 @@
 {
   "name": "Twake Mail",
-  "slug": "twake-mail",
-  "icon": "twake-mail.png",
+  "slug": "twakemail",
+  "icon": "twakemail.png",
   "categories": [],
   "version": "0.1.0",
   "licence": "AGPL-3.0",
