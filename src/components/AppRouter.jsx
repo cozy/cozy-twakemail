@@ -1,18 +1,11 @@
 import React from 'react'
 import { RouterProvider, createHashRouter } from 'react-router-dom'
-import AppLayout from 'src/components/AppLayout'
-import { Frame } from 'src/components/Views/Frame'
+import AppLayout from '@/components/AppLayout'
 
 const routes = [
   {
-    path: '/',
-    element: <AppLayout />,
-    children: [
-      {
-        path: '/',
-        element: <Frame />
-      }
-    ]
+    path: '*',
+    element: <AppLayout />
   }
 ]
 

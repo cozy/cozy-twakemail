@@ -1,7 +1,7 @@
 {
   "name": "Twake Mail",
   "slug": "twakemail",
-  "icon": "twakemail.png",
+  "icon": "assets/twakemail.png",
   "categories": [],
   "version": "0.1.0",
   "licence": "AGPL-3.0",
@@ -16,6 +16,11 @@
       "folder": "/",
       "index": "index.html",
       "public": false
+    },
+    "/dashboard": {
+      "folder": "/",
+      "index": "index.html",
+      "public": false
     }
   },
   "permissions": {
@@ -27,6 +32,11 @@
     "settings": {
       "description": "Required by the cozy-bar to display Claudy and know which applications are coming soon",
       "type": "io.cozy.settings",
+      "verbs": ["GET"]
+    },
+    "contacts": {
+      "description": "To demonstrate what is possible",
+      "type": "io.cozy.contacts",
       "verbs": ["GET"]
     }
   }
