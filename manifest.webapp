@@ -39,5 +39,10 @@
       "type": "io.cozy.contacts",
       "verbs": ["GET"]
     }
+  },
+  "mobile": {
+    "schema": "twakemail.mobile://openApp",
+    "id_playstore": "com.linagora.android.teammail",
+    "id_appstore": "twake-mail/id1587086189"
   }
 }
