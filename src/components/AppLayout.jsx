@@ -20,7 +20,7 @@ const AppLayout = () => {
           <Typography variant="h5">{client.appMetadata.slug}</Typography>
         </BarCenter>
       )}
-      <iframe id="embeddedApp" src="https://mail.twake.app/"></iframe>
+      <iframe id="embeddedApp" src="https://mail.twake.app"></iframe>
     </>
   )
 }
