@@ -2,14 +2,17 @@ import React from 'react'
 
 import { BarComponent } from 'cozy-bar'
 import { useExternalBridge } from 'cozy-external-bridge/container'
+import flag from 'cozy-flags'
 
 const AppLayout = () => {
-  useExternalBridge('https://mail.twake.app')
+  const embeddedMailUrl = flag('mail.embedded-app-url')
+
+  useExternalBridge(embeddedMailUrl)
 
   return (
     <>
       <BarComponent />
-      <iframe id="embeddedApp" src="https://mail.twake.app"></iframe>
+      <iframe id="embeddedApp" src={embeddedMailUrl}></iframe>
     </>
   )
 }
