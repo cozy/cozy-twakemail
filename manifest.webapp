@@ -1,12 +1,13 @@
 {
   "name": "Mail",
   "slug": "mail",
-  "icon": "assets/twakemail.png",
-  "categories": [],
   "version": "0.1.0",
+  "type": "webapp",
   "licence": "AGPL-3.0",
-  "editor": "",
-  "source": "",
+  "icon": "assets/twakemail.png",
+  "categories": ["cozy"],
+  "source": "https://github.com/cozy/cozy-twakemail",
+  "editor": "Cozy",
   "developer": {
     "name": "Cozy Cloud",
     "url": "https://cozy.io"
