@@ -16,11 +16,6 @@
       "folder": "/",
       "index": "index.html",
       "public": false
-    },
-    "/dashboard": {
-      "folder": "/",
-      "index": "index.html",
-      "public": false
     }
   },
   "permissions": {
