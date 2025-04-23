@@ -1,5 +1,6 @@
 {
   "name": "Mail",
+  "name_prefix": "Twake",
   "slug": "mail",
   "version": "0.1.0",
   "type": "webapp",
@@ -9,8 +10,8 @@
   "source": "https://github.com/cozy/cozy-twakemail",
   "editor": "Cozy",
   "developer": {
-    "name": "Cozy Cloud",
-    "url": "https://cozy.io"
+    "name": "Twake Workplace",
+    "url": "https://twake.app"
   },
   "routes": {
     "/": {
