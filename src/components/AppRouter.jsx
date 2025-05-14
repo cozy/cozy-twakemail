@@ -1,17 +1,16 @@
 import React from 'react'
-import { RouterProvider, createHashRouter } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
+
 import AppLayout from '@/components/AppLayout'
 
-const routes = [
-  {
-    path: '*',
-    element: <AppLayout />
-  }
-]
-
 const AppRouter = () => {
-  const router = createHashRouter(routes)
-  return <RouterProvider router={router} />
+  return (
+    <HashRouter>
+      <Routes>
+        <Route path="*" element={<AppLayout />} />
+      </Routes>
+    </HashRouter>
+  )
 }
 
 export default AppRouter
