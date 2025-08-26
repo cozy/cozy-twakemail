@@ -8,7 +8,13 @@ const App = () => {
 
   useExternalBridge(embeddedMailUrl)
 
-  return <iframe id="embeddedApp" src={embeddedMailUrl}></iframe>
+  return (
+    <iframe
+      id="embeddedApp"
+      src={embeddedMailUrl}
+      allow="clipboard-read; clipboard-write"
+    ></iframe>
+  )
 }
 
 export default App
