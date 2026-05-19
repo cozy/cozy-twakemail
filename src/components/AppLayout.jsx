@@ -13,6 +13,11 @@ const AppLayout = () => {
         searchOptions={{ enabled: false }}
         appIcon={Mail}
         appTextIcon={MailText}
+        componentsProps={{
+          CozyTheme: {
+            type: 'light'
+          }
+        }}
       />
       <Outlet />
     </>
