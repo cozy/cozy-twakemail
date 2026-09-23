@@ -50,6 +50,11 @@
       "verbs": ["POST"],
       "selector": "referenced_by",
       "values": ["io.cozy.apps/mail"]
+    },
+    "filesGetTmp": {
+      "description": "TEMPORARY PERMISSIONS TO BE ABLE TO CREATE SHARING LINKS",
+      "type": "io.cozy.files",
+      "verbs": ["GET"]
     }
   },
   "mobile": {
