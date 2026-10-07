@@ -14,6 +14,14 @@
     "url": "https://twake.app"
   },
   "client_url_flag": "mail.embedded-app-url",
+  "service_url_flag": "mail.service-url",
+  "intents": [
+    {
+      "action": "CREATE",
+      "type": ["io.cozy.mails"],
+      "href": "/intents"
+    }
+  ],
   "routes": {
     "/": {
       "folder": "/",
